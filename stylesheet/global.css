@@ -15,6 +15,7 @@ variables
     --big-txt-font:3vw;
     --medium-txt-font : 2vw;
     --small-txt-font:1vw;
+    --x-small-txt-font:0.8vw;
     --primary-bg-color:rgba(253, 110, 10, 1);
     --primary-txt-color:#000000;
     --light-dark-color:#757575;
@@ -57,6 +58,7 @@ Global styles
 
 .flex-container {
     display:flex;
+    flex-wrap: wrap;
 }
 
 .navbar-container {
@@ -92,6 +94,18 @@ Global styles
 
 .medium-txt {
     font-size: var(--medium-txt-font);
+}
+
+.small-txt {
+    font-size:var(--small-txt-font);
+}
+
+.x-small-txt {
+    font-size:var(--x-small-txt-font);
+}
+
+.light-dark-font {
+    --light-dark-color:#757575;
 }
 
 .primary-btn {
@@ -145,3 +159,10 @@ Global styles
     display:block;
 }
 
+.header-navbar {
+    justify-content: space-between;
+}
+
+.heading-2 {
+    margin:16px 0;
+}

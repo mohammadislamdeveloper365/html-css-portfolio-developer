@@ -19,10 +19,6 @@ Header - Banner
     background-size: auto 100%,auto;
 }
 
-.header-navbar {
-    justify-content: space-between;
-}
-
 .banner-body {
     align-items: center;
 }
@@ -49,6 +45,33 @@ Header - Banner
     margin-right:10px;
 }
 
+.info-blog-container {
+    padding:160px 60px;
+    max-width:800px;
+    margin:60px auto;
+    background-color: rgb(243, 238, 233);
+}
+
+.info-table {
+    width:100%;
+    margin:16px 0;
+}
+
+.info-skill {
+    background-color: rgb(238, 238, 238);
+}
+
+.skill-card {
+    width:20%;
+    margin:20px 10px;
+    background-color: white;
+    box-sizing: border-box;
+    padding:10px;
+}
+
+.justify-center {
+    justify-content: center;
+}
 
 @media screen  and (max-width:576px){
     .header-navbar {
@@ -58,3 +81,16 @@ Header - Banner
         margin: 20px 0;
     }
 }
+
+
+@media screen  and (max-width:576px){
+    .skill-card {
+        width:80%;
+        margin:20px 10px;
+        background-color: white;
+        box-sizing: border-box;
+        padding:10px;
+    }
+}
+
+
