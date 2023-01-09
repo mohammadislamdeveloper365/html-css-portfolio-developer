@@ -1,0 +1,19 @@
+* {
+    margin:0px;
+}
+
+body {
+    background-image: url('../images/form-bg.jpg');
+    background-size: cover;
+}
+
+.login-header {
+    
+}
+
+.header-navbar {
+    justify-content: space-between;
+    padding:16px;
+}
+
+

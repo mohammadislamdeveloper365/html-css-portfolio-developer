@@ -11,7 +11,7 @@ Header - Banner
     font-size: var(--big-txt-font);
 }
 
-.header {
+.home-header {
     padding:50px 100px;
     background-image: url("../images/developer-bg.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
@@ -21,10 +21,6 @@ Header - Banner
 
 .header-navbar {
     justify-content: space-between;
-}
-
-.orng-txt {
-    color:var(--primary-bg-color);
 }
 
 .banner-body {
