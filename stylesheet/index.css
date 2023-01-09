@@ -1,0 +1,64 @@
+* {
+    margin:0px;
+}
+
+/*
+--------------
+Header - Banner 
+--------------
+*/
+.banner-header {
+    font-size: var(--big-txt-font);
+}
+
+.header {
+    padding:50px 100px;
+    background-image: url("../images/developer-bg.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:left, right bottom;
+    background-size: auto 100%,auto;
+}
+
+.header-navbar {
+    justify-content: space-between;
+}
+
+.orng-txt {
+    color:var(--primary-bg-color);
+}
+
+.banner-body {
+    align-items: center;
+}
+.banner-card {
+    width:50%;
+    box-sizing: border-box;
+}
+
+.banner-card img {
+    width:100%;
+}
+
+.banner-txt {
+    width:70%;
+    margin:10px 0;
+}
+
+.banner-body .btn-container {
+    margin:20px 0;
+}
+
+
+#cv-btn {
+    margin-right:10px;
+}
+
+
+@media screen  and (max-width:576px){
+    .header-navbar {
+        flex-direction: column-reverse;
+    }
+    .banner-header {
+        margin: 20px 0;
+    }
+}

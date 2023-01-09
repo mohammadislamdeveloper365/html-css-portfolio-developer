@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Open+Sans&display=swap');
+
+body {
+    font-family:'Open Sans', sans-serif;
+}
+
+/*
+-----------
+variables
+-----------
+*/
+
+:root {
+    --extra-big-txt-font:4vw;
+    --big-txt-font:3vw;
+    --medium-txt-font : 2vw;
+    --small-txt-font:1vw;
+    --primary-bg-color:rgba(253, 110, 10, 1);
+    --primary-txt-color:#000000;
+    --light-dark-color:#757575;
+    --white-txt-color:#ffffff;
+    
+}
+
+/*
+--------------
+Global styles
+--------------
+*/
+
+.flex-container {
+    display:flex;
+}
+
+.navbar-container {
+    padding:0px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.navbar-item {
+    margin-right:20px;
+}
+
+.navbar-item-link {
+    text-decoration: none;
+    color:var(--light-dark-color);
+}
+
+.secondary-txt-color {
+    color:var(--light-dark-color);
+}
+
+.x-lg-txt {
+    font-size:var(--extra-big-txt-font) ;
+}
+
+.lg-txt {
+    font-size:var(--big-txt-font) ; 
+}
+
+.primary-btn {
+    background-color: var(--primary-bg-color);
+    padding:13px;
+    border-radius: 5px;
+    color:var(--white-txt-color);
+    font-size: var(--small-txt-font);
+}
+
+.border-none {
+    border:none;
+}
+
+.secondary-btn {
+    background-color: var(--white-txt-color);
+    padding:12px;
+    border-radius: 5px;
+    border:none;
+    color:var(--primary-bg-color);
+    font-size: var(--small-txt-font);
+    border:1px solid var(--primary-bg-color);
+}
+
