@@ -133,3 +133,15 @@ Global styles
     padding:10px;
 
 }
+
+.sub-navbar {
+    list-style-type: none;
+    padding:0px;
+    display:none;
+    position:absolute;
+}
+
+.link-hover:hover .sub-navbar {
+    display:block;
+}
+
