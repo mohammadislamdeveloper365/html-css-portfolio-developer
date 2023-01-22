@@ -7,8 +7,30 @@
     background-repeat: no-repeat,no-repeat;
     background-position: right bottom, left top;
     background-size:contain, contain;
+    background-color: var(--primary-color);
 }
 
 .orng-txt {
     color:var(--secondary-color)
+}
+
+.portfolio-info , .portfolio-skill{
+    max-width: 1200px;
+    margin:2rem auto;
+    background-color: var(--primary-color);
+    padding:4rem;
+}
+
+.portfolio-info-box {
+    margin:1rem 0;
+}
+.portfolio-skill {
+    background-color: var(--color-light-dark);
+}
+
+.portfolio-skill-card {
+    background-color: var(--color-light);
+    border:none;
+    margin-right:1rem;
+    margin-top:1rem;
 }

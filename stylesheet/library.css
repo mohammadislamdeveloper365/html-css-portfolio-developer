@@ -16,13 +16,13 @@ CSS Framework/Library
 ----------------------
 */
 :root {
-    --primary-color:#5DA3FA;
+    --primary-color:rgb(244, 206, 106,0.1);
     --secondary-color:#FF6263;
     --color-danger:#E21717;
     --color-dark: #242B2E;
     --color-light:rgb(255, 255, 255);
     --color-info:#8D3DAF;
-    --color-light-dark:#758283;
+    --color-light-dark:rgb(117, 130, 131,0.1);
 }
 /*
 ---------
@@ -357,6 +357,10 @@ Flex items Alignment
 
 .justify-space-between {
     justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
 }
 .list-style-none {
     list-style-type: none;

@@ -23,9 +23,19 @@ body {
 
 @media only screen and (max-width:575px) {
     .row {
+        flex-direction: column;
+    }
+    .portfolio-navbar {
         flex-direction: column-reverse;
     }
-    .col-sm-6 {
+    [class*="col-sm"] {
+        width:100%;
         text-align: center;
     }
+    
+    [class*="col-md"] {
+        width:100%;
+        text-align: center;
+    }
+    
 }
