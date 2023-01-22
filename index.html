@@ -7,34 +7,26 @@
     <title>Mohammad Islam Portfolio</title>
     <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
     <script src="https://kit.fontawesome.com/4771d5cd20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./stylesheet/library.css">
     <link rel="stylesheet" href="./stylesheet/global.css">
     <link rel="stylesheet" href="./stylesheet/index.css">
 </head>
 <body>
-   <header class="home-header">
-        <nav class="flex-container header-navbar">
-            <h1 class="banner-header">Moh<span class="orng-txt">am</span>mad <span class="orng-txt">Is</span>lam</h1>
-            <ul class="navbar-container flex-container">
-                <div class="flex-container">
-                    <li class="navbar-item link-hover">
-                        <a class="navbar-item-link " href="#">
-                            Courses
-                            <ul class="sub-navbar">
-                                <li><a class="navbar-item-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-                                <li><a class="navbar-item-link" href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-                                <li><a class="navbar-item-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JAVASCRIPT</a></li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li class="navbar-item"><a class="navbar-item-link" href="#">Sign Up</a></li>
-                    <li class="navbar-item"><a class="navbar-item-link" href="./login.html">Login</a></li>
-                </div>
+   <header class="portfolio-header">
+        <nav class="container-xs row justify-space-between">
+            <h5 class="col-sm-6 col-md-4 ">
+                Mo<span class="orng-txt">ha</span>mmad Is<span class="orng-txt">la</span>m
+            </h5>
+            <ul class="col-sm-6 col-md-5 d-flex  justify-content-center align-items-center  list-style-none">
+                <li><a class="txt-light-dark nav-link" href="#">About Me</a></li>
+                <li><a class="txt-light-dark p-x-2 nav-link" href="#">My Work</a></li>
+                <li><a class="txt-light-dark btn-secondary nav-link" href="#">Hire Me</a></li>
             </ul>
         </nav>
-        <div class="banner-body flex-container">
-            <div class="banner-card">
-                <h1 class="lg-txt">
-                    Hi, I am <br/>
+        <div class="container-xs row align-items-center portfolio-banner">
+            <div class="col-sm-6 portfolio-banner-info">
+                <h1>
+                    <small> Hi, I am </small><br/>
                     <span class="x-lg-txt">
                         Moha<span class="orng-txt">mma</span>d Mo<span class="orng-txt">inu</span>l Islam
                     </span>
@@ -43,16 +35,16 @@
                     I am a junior software engineer working for Southwest Airlines located in Texas, USA.
                 </p>
                 <div class="btn-container">
-                    <button class="primary-btn border-none" id="cv-btn"><i class="fa-sharp fa-solid fa-download"></i> Download CV</button>
-                    <button class="secondary-btn border-none" id="contact-btn"><i class="fa-solid fa-phone"></i> Contact Me</button>
+                    <button class="btn-primary border-none" id="cv-btn"><i class="fa-sharp fa-solid fa-download"></i> Download CV</button>
+                    <button class="btn-secondary border-none" id="contact-btn"><i class="fa-solid fa-phone"></i> Contact Me</button>
                 </div>
             </div>
-            <div class="banner-card">
+            <div class="col-sm-6 portfolio-banner-img">
                 <img src="./images/developer.png" alt="developer photo">
             </div>
-        </div>
+        </div> 
    </header>
-   <main>
+   <!-- <main>
       <section class="info-blog-container txt-center">
          <h2 class="heading-2">About Me</h2>
          <p class="x-small-txt light-dark-font">
@@ -109,6 +101,6 @@
                 </div>
             </div>
       </section>
-   </main>
+   </main> -->
 </body>
 </html>
