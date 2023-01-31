@@ -9,6 +9,10 @@ CSS Framework/Library
     margin:0;
 }
 
+:root {
+    font-size:100%;
+}
+
 /*
 ----------------------
 CSS Framework/Library
@@ -51,17 +55,17 @@ Typography
 */
 
 h6 {
-    font-size:1rem;
+    font-size:1.5rem;
     
 }
 
 h5 {
-    font-size:1.6rem;
+    font-size:2rem;
     
 }
 
 h4 {
-    font-size:2rem;
+    font-size:2.25rem;
     
 }
 
@@ -80,7 +84,7 @@ h1 {
 }
 
 p {
-    font-size:1rem;
+    font-size:1.5rem;
 }
 /*
 --------------------
@@ -394,6 +398,9 @@ RESPONSIVENESS
 -----------------
 */
 @media only screen and (min-width:1px){
+    :root {
+        font-size:70%;
+    }
     /*mobile devices*/
     .container-xs {
         width:100%;
@@ -413,35 +420,12 @@ RESPONSIVENESS
     .col-xs-11 {width: 91.66%;}
     .col-xs-12 {width: 100%;}
 
-    h6 {
-        font-size:1rem;
-    }
-
-    h5 {
-        font-size:calc(0.125vw + 1rem);
-    }
-
-    h4 {
-        font-size:calc(0.50vw + 1rem);
-    }
-
-   h3 {
-    font-size:calc(0.75vw + 1.50rem);
-    }
-
-   h2 {
-    font-size:calc(1vw + 1.25rem);
-    }
-
-    h1 {
-    font-size:calc(1vw + 1.5rem) ;
-    }
-    p {
-        font-size:1rem;
-    }
 }
 
 @media only screen and (min-width:576px){
+    :root {
+        font-size:75%;
+    }
     /*Tablet*/
     .container-sm {
         width:100%;
@@ -461,35 +445,13 @@ RESPONSIVENESS
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
 
-    h6 {
-        font-size:1rem;
-    }
-
-    h5 {
-        font-size:calc(0.125vw + 1rem);
-    }
-
-    h4 {
-        font-size:calc(0.25vw + 1rem);
-    }
-
-   h3 {
-    font-size:calc(0.25vw + 1.50rem);
-    }
-
-   h2 {
-    font-size:calc(0.25vw + 1.75rem);
-    }
-
-    h1 {
-    font-size:calc(0.25vw + 2rem) ;
-    }
-    p {
-        font-size:1rem;
-    }
+   
 
 }
 @media only screen and (min-width:768px){
+    :root {
+        font-size:80%;
+    }
     /*Medium Size Laptop*/
     .container-md {
         width:100%;
@@ -509,35 +471,14 @@ RESPONSIVENESS
     .col-md-11 {width: 91.66%;}
     .col-md-12 {width: 100%;}
 
-    h6 {
-        font-size:1rem;
-    }
-
-    h5 {
-        font-size:calc(0.5vw + 1rem);
-    }
-
-    h4 {
-        font-size:calc(0.5vw + 1rem);
-    }
-
-   h3 {
-    font-size:calc(0.5vw + 1.50rem);
-    }
-
-   h2 {
-    font-size:calc(0.5vw + 1.75rem);
-    }
-
-    h1 {
-    font-size:calc(0.5vw + 2rem) ;
-    }
-    p {
-        font-size:1rem;
-    }
+    
 }
 
 @media only screen and (min-width:992px){
+
+    :root {
+        font-size: 90%;
+    }
     
     /*Desktop and Laptop*/
     .container-lg {
@@ -560,32 +501,7 @@ RESPONSIVENESS
     
     /*font size*/
 
-    h6 {
-        font-size:1rem;
-    }
-
-    h5 {
-        font-size:calc(0.5vw + 1.5rem);
-    }
-
-    h4 {
-        font-size:calc(1vw + 1rem);
-    }
-
-   h3 {
-    font-size:calc(1vw + 1.50rem);
-    }
-
-   h2 {
-    font-size:calc(1vw + 1.75rem);
-    }
-
-    h1 {
-    font-size:calc(1vw + 2rem) ;
-    }
-    p {
-        font-size:1rem;
-    }
+   
 }
 
 @media only screen and (min-width:1200px){
