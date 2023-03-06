@@ -23,7 +23,7 @@ body {
     color:var(--color-dark);
     border:2px solid var(--secondary-color);
 }
-.portfolio--banner-img img {
+.portfolio--header-banner-img img {
     max-width: 100%;
 }
 
@@ -70,18 +70,20 @@ body {
 }
 
 .fa-circle-xmark {
-    font-size:2.5rem;
+    font-size:3rem;
     color:var(--color-danger);
 }
 .orng-txt {
     color:var(--secondary-color)
 }
 
-.portfolio-info , .portfolio-skill{
+.portfolio--main-info , .portfolio-main-skill{
     max-width: 1200px;
     margin:2rem auto;
     background-color: var(--primary-color);
     padding:1rem;
+    border-radius: 2rem;
+
 }
 
 .portfolio-info-box {
@@ -98,12 +100,12 @@ body {
     margin-top:1rem;
 }
 
-.portfolio-summary {
+.portfolio--main-summary {
     max-width: 1200px;
     margin:2rem auto;
 }
 
-.portfolio-summary-box {
+.portfolio--main-summary-box {
     border-bottom:2px solid var(--color-light-dark);
 }
 
@@ -134,7 +136,7 @@ body {
 
     .portfolio--header-navbar-main-menu-link, .btn-link button  {
         color:white;
-        font-size:1.5rem;
+        font-size:1.875rem;
     }
     .portfolio--header-navbar-main-menu-link {
         padding:0.5rem;
@@ -152,5 +154,11 @@ body {
         position:fixed;
         top:1rem;
         right:1rem;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .portfolio--main-info-box {
+        text-align: center;
     }
 }

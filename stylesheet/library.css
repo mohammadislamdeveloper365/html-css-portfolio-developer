@@ -5,7 +5,7 @@ CSS Framework/Library
 ----------------------
 */
 :root {
-    --primary-color:rgb(244, 206, 106,0.1);
+    --primary-color:rgb(27, 152, 245,0.1);
     --secondary-color:#FF6263;
     --color-danger:#E21717;
     --color-dark: #242B2E;
@@ -70,7 +70,7 @@ h1 {
     font-size:3rem ;
 }
 
-p {
+p, div, button {
     font-size:1.5rem;
 }
 /*
