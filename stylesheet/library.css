@@ -70,7 +70,7 @@ h1 {
     font-size:3rem ;
 }
 
-p, div, button {
+p, div, button, a {
     font-size:1.5rem;
 }
 /*
@@ -256,6 +256,11 @@ margin , padding
 .p-4 {
     padding:2rem;
 }
+
+.p-5 {
+    padding:2em;
+}
+
 .p-t-4 {
     padding-top:2rem;
 }
@@ -304,6 +309,14 @@ Display Value
     display:inline;
 }
 
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
 /*
 --------------
 Text Alignment

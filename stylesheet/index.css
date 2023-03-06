@@ -77,7 +77,7 @@ body {
     color:var(--secondary-color)
 }
 
-.portfolio--main-info , .portfolio-main-skill{
+.portfolio--main-info , .portfolio--main-skill{
     max-width: 1200px;
     margin:2rem auto;
     background-color: var(--primary-color);
@@ -93,11 +93,10 @@ body {
     background-color: var(--color-light-dark);
 }
 
-.portfolio-skill-card {
+.portfolio--main-skill-card {
     background-color: var(--color-light);
     border:none;
-    margin-right:1rem;
-    margin-top:1rem;
+    border-radius: 2rem;
 }
 
 .portfolio--main-summary {
@@ -109,14 +108,16 @@ body {
     border-bottom:2px solid var(--color-light-dark);
 }
 
-.portfolio-footer {
-    max-width: 1200px;
+.portfolio--footer {
     margin:2rem auto;
 }
 
-.footer-input {
+.portfolio--footer-input {
     border:none;
     width:80%;
+    font-size: 1.25rem;
+    outline:none;
+    border-radius: 0.5rem;
 }
 
 @media only screen and (max-width: 800px){
@@ -129,7 +130,7 @@ body {
         left:0;
         right:0;
         justify-content: center;
-        background-color: rgba(33, 31, 31, 0.5);
+        background-color: rgba(33, 31, 31, 0.85);
         display:none;
         transition:top 1s ease;
     }
@@ -160,5 +161,11 @@ body {
 @media only screen and (max-width:575px){
     .portfolio--main-info-box {
         text-align: center;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .portfolio--main-skill-card {
+        width:20%;
     }
 }
