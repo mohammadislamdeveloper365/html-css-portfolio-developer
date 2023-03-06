@@ -1,15 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Open+Sans&display=swap');
+
 * {
-    margin:0px;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
 }
 
-.portfolio-header {
+body {
+    font-family:'Open Sans', sans-serif;
+}
+
+.portfolio-header nav {
+    padding:calc(1rem + 1vw);
+}
+
+.btn-secondary,.btn-primary {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: var(--color-light);
+    color:var(--color-dark);
+    border:2px solid var(--secondary-color);
+}
+.portfolio--banner-img img {
+    max-width: 100%;
+}
+
+.portfolio--header {
     background-image: url('../images/header_bg.png'),url('../images/developer-bg.png');
     background-repeat: no-repeat,no-repeat;
     background-position: right bottom, left top;
     background-size:contain, contain;
     background-color: var(--primary-color);
+    
 }
 
+.portfolio--header-navbar-logo  {
+    font-family: 'Mynerve', cursive;
+    font-size:3rem;
+    font-weight:900;
+    text-shadow: 0.8rem 0.2rem 0.6rem rgb(171, 128, 170);
+    font-style: oblique;
+}
+
+.portfolio--header-navbar-main-menu {
+    list-style-type: none;
+    margin:0px;
+}
+
+.portfolio--header-navbar-open-menu {
+    display:none;
+}
+
+.fa-bars {
+    font-size: 2.5rem;
+}
+
+.portfolio--header-navbar-close-menu {
+    display:none;
+}
+
+.portfolio--header-navbar-main-menu-link {
+    padding:1.5rem;
+}
+
+.btn-link {
+    padding:1rem;
+}
+
+.fa-circle-xmark {
+    font-size:2.5rem;
+    color:var(--color-danger);
+}
 .orng-txt {
     color:var(--secondary-color)
 }
@@ -52,4 +115,42 @@
 .footer-input {
     border:none;
     width:80%;
+}
+
+@media only screen and (max-width: 800px){
+    .portfolio--header-navbar-main-menu {
+        flex-direction: column;
+        align-items: center;
+        height:100vh;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        justify-content: center;
+        background-color: rgba(33, 31, 31, 0.5);
+        display:none;
+        transition:top 1s ease;
+    }
+
+    .portfolio--header-navbar-main-menu-link, .btn-link button  {
+        color:white;
+        font-size:1.5rem;
+    }
+    .portfolio--header-navbar-main-menu-link {
+        padding:0.5rem;
+    }
+
+    .btn-link {
+        padding:0.5rem;
+    }
+
+    .portfolio--header-navbar-open-menu {
+        display:block;
+    }
+
+    .portfolio--header-navbar-close-menu {
+        position:fixed;
+        top:1rem;
+        right:1rem;
+    }
 }

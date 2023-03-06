@@ -1,17 +1,3 @@
-/*
-----------------------
-CSS Framework/Library
-----------------------
-*/
-* {
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-}
-
-:root {
-    font-size:100%;
-}
 
 /*
 ----------------------
@@ -26,6 +12,7 @@ CSS Framework/Library
     --color-light:rgb(255, 255, 255);
     --color-info:#8D3DAF;
     --color-light-dark:rgb(117, 130, 131,0.1);
+    font-size: 100%;
 }
 /*
 ---------
@@ -60,22 +47,22 @@ h6 {
 }
 
 h5 {
-    font-size:2rem;
+    font-size:1.75rem;
     
 }
 
 h4 {
-    font-size:2.25rem;
+    font-size:2rem;
     
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     
 }
 
 h2 {
-    font-size:2.75rem;
+    font-size:2.50rem;
 
 }
 
@@ -133,6 +120,7 @@ Navigation Bar
 .nav-link {
     color:var(--primary-color);
     text-decoration: none;
+    display:inline-block;
 }
 /*
 -----------------------
@@ -140,31 +128,31 @@ COLOR--BACKGROUND COLOR
 -----------------------
 */
 
-.txt-primary {
+.text-primary {
     color:var(--primary-color);
 }
 
-.txt-secondary {
+.text-secondary {
     color:var(--secondary-color);
 }
 
-.txt-danger {
+.text-danger {
     color:var(--color-danger)
 }
 
-.txt-info {
+.text-info {
     color:var(--color-info);
 }
 
-.txt-dark {
+.text-dark {
     color:var(--color-dark);
 }
 
-.txt-light {
+.text-light {
     color:var(--color-light);
 }
 
-.txt-light-dark {
+.text-light-dark {
     color:var(--color-light-dark);
 }
 .bg-primary {
@@ -322,19 +310,19 @@ Text Alignment
 --------------
 */
 
-.txt-center {
+.text-center {
     text-align: center;
 }
 
-.txt-left {
+.text-left {
     text-align: left;
 }
 
-.txt-right {
+.text-right {
     text-align: right;
 }
 
-.txt-justify {
+.text-justify {
     text-align: justify;
 }
 
@@ -357,6 +345,13 @@ Flex items Alignment
     justify-content: center;
 }
 
+.justify-content-around {
+    justify-content:space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
 .align-items-end {
     align-items: flex-end;
 }
