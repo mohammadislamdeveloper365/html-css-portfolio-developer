@@ -63,10 +63,15 @@ body {
 
 .portfolio--header-navbar-main-menu-link {
     padding:1.5rem;
+    cursor:grab;
 }
 
 .btn-link {
     padding:1rem;
+}
+
+.btn-link button {
+    cursor:grab;
 }
 
 .fa-circle-xmark {
@@ -131,7 +136,6 @@ body {
         right:0;
         justify-content: center;
         background-color: rgba(33, 31, 31, 0.85);
-        display:'flex';
         transition:top 1s ease;
     }
 
@@ -143,24 +147,30 @@ body {
     .portfolio--header-navbar-main-menu-link {
         padding:0.5rem;
         font-size: 2rem;
-        transition: font-size 0.3s linear;
+        transition: font-size 0.2s ease, color 0.2s ease;
+        cursor:grab;
     }
    
-    .portfolio--header-navbar-main-menu-link :hover {
-        font-size: 2.5rem;
+    .portfolio--header-navbar-main-menu-link:hover {
+        font-size: 3rem;
+        color:#02B290;
+        
     }
+
     .btn-link {
         padding:0.5rem;
     }
 
     .portfolio--header-navbar-open-menu {
         display:block;
+        cursor:grab;
     }
 
     .portfolio--header-navbar-close-menu {
         position:fixed;
         top:1rem;
         right:1rem;
+        cursor:grab;
     }
 }
 
